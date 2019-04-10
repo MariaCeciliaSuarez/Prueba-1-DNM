@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Patrick+Hand');
+
+@keyframes desvaneciendose {
+  from {
+    background: #ffad42;
+  }
+  to {
+    background: #c77800;
+  }
+}
+
+body {
+font-family: 'Patrick Hand', cursive;
+
+animation-name: desvaneciendose;
+animation-duration: 3s;
+animation-timing-function: ease-in-out;
+animation-iteration-count: infinite;
+animation-direction: alternate;
+}
+
+.jumbotron {
+background: linear-gradient(to bottom, rgba(255,255,255,0.2) 0%, rgba(255,255,255,0.8) 100%),
+url("https://www.alfabetajuega.com/wp-content/uploads/2019/01/luffy-one-piece-e1548160740529.jpg");
+background-size:cover;
+}
